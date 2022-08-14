@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 500px;
+  min-height: 180px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+#update-input {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+}
